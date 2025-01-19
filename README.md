@@ -33,7 +33,8 @@ make install
 
 ### Midi in
 
-Simple demo app that uses TinySoundFont to render data coming over usb
+Simple demo app that uses TinySoundFont to render data coming over usb  
+Be sure to install libmouse.skprx plugin first.
 
 #### Building
 Build and install driver first.
@@ -44,3 +45,6 @@ cmake -DCMAKE_BUILD_TYPE=Release ..
 make
 make install
 ```
+
+## Credits
+- Idea: [Null](https://github.com/Null-39)
