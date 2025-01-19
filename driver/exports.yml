@@ -1,0 +1,18 @@
+libmouse:
+  attributes: 0
+  version:
+    major: 1
+    minor: 0
+  main:
+    start: module_start
+    stop: module_stop
+  libraries:
+    mouse:
+      syscall: true
+      functions:
+        - libmouse_usb_start
+        - libmouse_usb_stop
+        - libmouse_usb_read
+        - libmouse_usb_write
+        - libmouse_usb_in_attached
+        - libmouse_usb_out_attached
